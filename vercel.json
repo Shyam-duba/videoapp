@@ -1,0 +1,7 @@
+{
+  "version": 2,
+  "routes": [
+    { "src": "/video_feed", "dest": "/flask/video_feed" },
+    { "src": "/", "dest": "/flask/index" }
+  ]
+}
