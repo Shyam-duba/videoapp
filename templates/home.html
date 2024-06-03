@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display - Face Recognition App</title>
+    
+</head>
+<body>
+    <div class="container">
+        <h1>Face Recognition App</h1>
+        <h2>Video Feed</h2>
+        <div id="videoContainer">
+            <img id="videoFeed" src="" alt="Video Feed">
+        </div>
+    </div>
+
+    <script>
+        
+        // Start video feed
+        document.getElementById('videoFeed').src = "{{ url_for('video_feed') }}";
+    </script>
+</body>
+</html>
